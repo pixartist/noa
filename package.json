@@ -9,7 +9,7 @@
         "/dist"
     ],
     "scripts": {
-        "build": "npm run types; npm run docs",
+        "build": "npm run types && npm run docs",
         "types": "tsc",
         "docs": "typedoc"
     },
@@ -43,7 +43,8 @@
         "js-beautify": "^1.14.0",
         "typedoc": "^0.24.6",
         "typedoc-plugin-missing-exports": "^2.0.0",
-        "typescript": "^5.0.4"
+        "typescript": "^5.0.4",
+        "@typescript-eslint/parser": "^5.0.0"
     },
     "keywords": [
         "voxel",
